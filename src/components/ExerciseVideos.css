@@ -1,0 +1,60 @@
+.videosContainer {
+  margin: 2%;
+  background-color: #db6962;
+  border-radius: 20px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.videosTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 3vw;
+  font-weight: 600;
+  color: #1b1b1b;
+  margin-bottom: 5%;
+}
+.videosTitleSpan {
+  background-color: #1b1b1b;
+  color: #db6962;
+  padding: 0.5%;
+  border-radius: 10px;
+  margin: 0 1%;
+}
+.videosGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: space-evenly;
+}
+.exerciseVideo {
+  background-color: #1b1b1b;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  color: #db6962;
+  font-weight: 600;
+  font-size: 1.2vw;
+  max-width: 27.5%;
+  align-items: center;
+}
+.videosVideos {
+  width: 20vw;
+  border-radius: 5px;
+  height: 12.5vw;
+}
+.videosInfo {
+  margin-top: 5%;
+}
+.videosInfoChannel {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  text-decoration: underline;
+}

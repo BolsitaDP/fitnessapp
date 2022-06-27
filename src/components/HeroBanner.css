@@ -1,0 +1,77 @@
+.herobannerContent {
+  background-color: #db6962;
+  margin: 2%;
+  padding: 2%;
+  height: 80vh;
+  border-radius: 20px;
+  display: flex;
+}
+.herobannerLeft {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2%;
+}
+.herobannerTitle {
+  font-size: 5vw;
+  font-weight: 600;
+  background-color: #1b1b1b;
+  color: #db6962;
+  padding: 2% 3%;
+  border-radius: 10px;
+}
+.herobannerDescription {
+  font-size: 3vw;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b1b1b;
+}
+.herobannerInvitation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  font-weight: 600;
+  color: #1b1b1b;
+}
+.herobannerButton {
+  background-color: #1b1b1b;
+  padding: 1% 2%;
+  font-size: 2vw;
+  border-radius: 10px;
+  color: #db6962;
+  margin-top: 5%;
+  border: 3px solid #1b1b1b;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.herobannerButton:hover {
+  color: #1b1b1b;
+  background-color: #db6962;
+}
+.herobannerRight {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.herobannerImg {
+  font-size: 30vw;
+  color: #1b1b1b;
+}
+.herobannerWatermark {
+  position: absolute;
+  color: rgba(27, 27, 27, 0.336);
+  font-size: 4vw;
+  transform: rotate(55deg);
+  letter-spacing: 1.5vw;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 2;
+}

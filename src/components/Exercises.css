@@ -1,0 +1,79 @@
+.exercisesGrid {
+  background-color: #db6962;
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 3%;
+}
+.exerciseCard {
+  margin: 2%;
+  background-color: #1b1b1b;
+  padding: 3%;
+  border-radius: 10px;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.exerciseGif {
+  border-radius: 10px;
+  width: 20vw;
+}
+.exerciseCardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exerciseCardMuscles {
+  position: absolute;
+  margin-top: 17%;
+  margin-left: -4%;
+  display: flex;
+  gap: 2%;
+  width: 15%;
+}
+.exerciseCardButton {
+  background-color: #db6962;
+  color: #1b1b1b;
+  padding: 3%;
+  border: 2px solid #db6962;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.exerciseCardButton:hover {
+  background-color: #1b1b1b;
+  color: #db6962;
+}
+.exerciseCardName {
+  font-size: 1.8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #db6962;
+  text-transform: capitalize;
+}
+.MuiPagination-ul {
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  height: 5vw;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+}
+.MuiPagination-ul li {
+  background-color: #db6962;
+  margin: 0.2vw 0.7vw;
+  border-radius: 10px;
+  color: #1b1b1b;
+}
+.MuiPagination-ul li button {
+  font-size: 1.5vw;
+  color: #1b1b1b;
+  font-family: monospace;
+  font-weight: 600;
+}

@@ -1,0 +1,51 @@
+.detailInfo {
+  background-color: #db6962;
+  margin: 2%;
+  border-radius: 20px;
+  padding: 5%;
+  display: flex;
+}
+.detailImage {
+  border-radius: 10px;
+}
+.detailText {
+  width: 50%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+.detailTitle {
+  font-size: 5vw;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.detailDescription {
+  font-size: 2vw;
+  font-weight: 600;
+}
+.detailIcons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 8%;
+}
+.detailIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detailIconButton {
+  border-radius: 10px;
+  border: 0;
+  padding: 8%;
+}
+.detailIconName {
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 6%;
+}
